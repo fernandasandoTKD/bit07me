@@ -8,7 +8,8 @@ Siguiendo parametros de task, las cuales son las siguientes:
 * Se añade documento README en la raíz del proyecto. 
 * Se crea el directorio "src"
 * Dentro de esta crear archivo "index.html"
-* Creación de carpetas
+* Creación de carpetas de estilo y JavaScript.
+* Se añaden respectivo archivos y se enlazan al archivo HTML. 
 
 
 ## Autor
