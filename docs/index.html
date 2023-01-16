@@ -10,12 +10,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/docs/img/avatar.ico" type="image/x-icon">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
   </head>
   <body>
    
-    <body>
-      <!--Contenedor general-->
+    
+      <!--Sección de inicio-->
+      <section id="inicio">
+
+     
+      <!--Contenedor de head-->
       <div class="contenedor">
           <!--Header con NAV-->
           <header class="header">
@@ -26,109 +31,243 @@
                       </span></label>
                       <input type="checkbox" name="" id="checkmenu" class="menu-check">
                           <div class="links">
-                            <img src="./img/me.png" alt="" class="picture">
+                            
                             <div class="name">
                               <p>Luisa Díaz Sandoval</p>
                               <p>Software Developer</p>
                             </div>
                               <ul> 
-                              <li><a href="index.html" class="active">Perfil</a></li>
-                              <li> <a href="#historial">Educación</a></li>
-                              <li><a href="#proyectos">Proyectos</a></li>
+                              <li><a href="#sobremi" class="active">Perfil</a></li>
+                              <li> <a href="#servicios">Educación</a></li>
+                              <li><a href="#portfolio">Proyectos</a></li>
                               <li><a href="#footer">Contactos</a></li>
                               </ul>
                               
                           </div>
               </nav>
+         
+        </div>
           </header>
-
-          <section class="portada">
+           </section>
+            <!--Sección de portada con link de Gib-->
+           <section class="portada">
             <label for=""><img src="./img/iconogit.png" alt=""></label>
-            <h1><a href="http://https://github.com/fernandasandoTKD" target="_blank">https://github.com/fernandasandoTKD</a></h1>            
+            <h1><a href="https://github.com/fernandasandoTKD" target="_blank">https://github.com/fernandasandoTKD</a></h1>            
+        </section> 
+
+           <!--Sobre mí-->
+           <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="/docs/img/me.png" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, Soy <span>Luisa Díaz Sandoval</span> </h2>
+                <h3>Desarrolladora Web</h3>
+                <p>Profesional desempeñada en el área educativa con
+                  experiencia en la enseñanza de lenguajes de
+                  programación en las ramas de Front end y Back end, así
+                  como el desarrollo de proyectos freelance en las
+                  mismas. Procesos de ejecución de ciclos y reportes de
+                  incidencia, desde la planificación y diseño de interfaz de
+                  usuario propiciando la validación de requerimientos y
+                  entrega de resultados.</p>
+                
+                <a href="#">Descargar CV</a>
+            </div>
         </section>
 
-        <!--Contenido primario-->
-        <main class="contenido">
-          <h1 >Perfil </h1>
-          <p >Profesional desempeñada en el área educativa con  experiencia en la enseñanza de lenguajes de programación en las ramas de Front end y Back end, así como el desarrollo de proyectos freelance en las mismas. Procesos de ejecución de ciclos y reportes de incidencia, desde la planificación y diseño de interfaz de usuario propiciando la validación de requerimientos y entrega de resultados.</p>
-          <h1 id="historial">Historial académico</h1>
-          <h3>UNVERSIDAD PEDAGÓCICA NACIONAL DE COLOMBIA</h3>
-          <h3>Licenciatura en diseño tecnológico | 2014-2020</h3>
-          <p>Profundización en lenguajes de programación y construcción de diagramas de flujo, trabajo de grado desempeñado entorno al enfoque interdisciplinario STEM para el desarrollo de habilidades propicias para el siglo XXI en los estudiantes, desde el diseño de un club de ciencia y tecnología dentro del departamento del programa académico. Monitora y ponente de investigación en el semillero de CYT.</p>
-          <h3>SERVICIO NACIONAL DE APRENDIZAJE (sena)</h3>
-          <h3>Técnico en programación de Software | 2012-2013</h3>
-          <p>Especialidad en programación C# y Visual Basic con conexión a bases de datos con MySQL Selver y Access, manejo y diseño de páginas web desde PHP, con animaciones e interacciones efectivas para el usuario.</p>
-          
-        </main>
-
-       <!--Contenido secundario-->
-
-       <aside class="sidebar">
-        <div class="container">
-        <div class="card">
-            <figure>
-                <img src="/docs/img/habilidad.png"alt="">
-            </figure>
-        </div>
-        <div class="card">
-          <figure>
-              <ul>
-                <h2 style="color:#fb8500;">Transversales</h2>
-                <li>Trabajo en equipo: bajo líneamientos de métologías ágiles (Lean SRUM), en el desarrollo de documentación educativa. </li> <br>
-                <li>Adaptabilidad: rotación continua en las secciones de ciclos escolares. </li> <br>
-                <li>Comunicación asertiva: en el manejo de grupos de trabajo en diversas edades. </li> <br>
-                <li>Analisis: elementos investigativos plantear hipótesis y diseñar documentación educativa. </li>
+        <!-- Sección de educación -->
+    <section id="servicios">
+      <h3 class="titulo-seccion">Educación y cursos complementarios</h3>
+      <div class="fila">
+          <div class="servicio">
+              <span class="icono"> <img src="/docs/img/upn.ico" alt=""></span>
+              <h4>Licenciatura en diseño tecnológico</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>2014</li>
+                  <li>||</li>
+                  <li>2020</li>
+                  
               </ul>
-          </figure>
+              <p>Profundización en lenguajes de programación y construcción de diagramas de flujo,
+                trabajo de grado desempeñado entorno al enfoque interdisciplinario STEM para el
+                desarrollo de habilidades propicias para el siglo XXI en los estudiantes, desde el
+                diseño de un club de ciencia y tecnología dentro del departamento del programa
+                académico. Monitora y ponente de investigación en el semillero de CYT.
+                </p>
+          </div>
+          <div class="servicio">
+              <span class="icono"><img src="/docs/img/sena.png" alt=""></i></span>
+              <h4>Técnico en programación de Software</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>2012</li>
+                  <li>||</li>
+                  <li>2013</li>
+              </ul>
+              <p>Especialidad en programación C# y Visual Basic con conexión a bases de datos con
+                MySQL Selver y Access, manejo y diseño de páginas web desde PHP, con
+                animaciones e interacciones efectivas para el usuario.  </p>
+          </div>
+          <div class="servicio">
+              <span class="icono"><img src="/docs/img/platzi.png" alt=""></span>
+              <h4>Cursos complementarios de programación</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>2020</li>
+                  <li>||</li>
+                  <li>Hasta la fecha</li>
+              </ul>
+              <p>Desarrollo de cursos dentro de la  Plataforma de educación en línea- Platzi, desde el año 2020, enfocados a la 
+                a la rama de programación, en las secciónes de Backend y Frontend. 
+              </p>
+          </div>
       </div>
-      <div class="card">
-        <h1>Historial profesional</h1>
-          <h3>DOCENTE DE INFORMÁTICA Y GESTIÓN EMPRESARIAL</h3>
-          <h3>Colegio Parroquial San Luis Gonzaga | 2021-2022</h3>
-          <p>Cátedras de enseñanzas enfocadas en el uso de herramientas tecnológicas y ofimáticas en los estudiantes de primaria, acompañamiento pedagógico de formación del tecnico de programación de software, en la construcción de SI enfocados a las Pymes, dando uso de lenguajes de como Python, Java, HTML, CSS, y PseInt, conexiónes simples a gestores de datos como Access y MySql.  Manejo de grupo de trabajo como rol de jefe de área, teniendo personal a cargo para distribución de tareas.</p>
-        <figure id="proyectos">
-          <h1>Algunos proyectos</h1>
-          <ol>
-            <li> <a href="http://https://github.com/fernandasandoTKD/bit06exercises" target="_blank">Ejercicios en JS</a> </li>
-            <li> <a href="http://https://github.com/fernandasandoTKD/bit04thtmlcss" target="_blank">Aronk Cook</a></li>
-            <li> <a href="http://https://github.com/vaneroblessilva/bit05bootstrap" target="_blank">Tienda Virtual</a> </li>
-          </ol>
-        </figure>
-        
-    </div>
+      <div class="fila">
+          <div class="servicio">
+              <span class="icono"><img src="/docs/img/eud.png" alt=""></span>
+              <h4>Diplomado fullstack developer backend y frontend</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>Agosto 2022</li>
+                  <li>||</li>
+                  <li>136 horas</li>
+              </ul>
+              <p>Formación leve en tipo de programación orientada a objetos e inspección a bases de datos relacionales y no relaciones, aplicación simple de frameworks como Node.js y Angular. </p>
+          </div>
+          <div class="servicio">
+              <span class="icono"> <img src="/docs/img/scrum.png" alt=""></span>
+              <h4>Acreditación body form SCRUM and Agile</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>Junio 2022</li>
+                  <li>||</li>
+                  <li>36 horas</li>
+              </ul>
+              <p>Fundamentos de SCRUM y metologías agiles, en la aplicación de proyectos de programación, registro de historias de usuario.
+              </p>
+          </div>
+          <div class="servicio">
+              <span class="icono"><img src="/docs/img/BIT_Logo.png" alt=""></i></span>
+              <h4>Bootcamp en Frontend con especilización en REACT</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>Octubre 2022</li>
+                  <li>||</li>
+                  <li>Hasta la fecha</li>
+              </ul>
+              <p>Produndización y contrucción de proyectos básicos haciendo uso de lenguajes de maquetado y estilo, frameworks de de estilo e implementación
+                de elementos interactivos con ayud del lenguaje JS. 
+              </p>
+          </div>
+      </div>
+  </section>
+
+  <!-- Habilidades técnicas -->
+  <div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES TÉCNICAS </h3>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Html & Css</p>
+            <span class="porcentaje">70%</span>
         </div>
 
-    </aside>
-
-    <div class="widget-1">
-      <form action="">
-        <label for="">FORMACIÓN SEGUNDA LENGUA</label> 
-        <label for=""><img src="/docs/img/espanol.png" alt=""></label>
-      </form>
-      
-  </div>
-  <div class="widget-2">
-      <ul>
-        <li>Inglés</li>
-        <li>Lengua de señas Colombiana</li>
-        <li>Fránces</li>
-      </ul>
-  </div>
-
-  <footer class="footer" id="footer">
-
-    <div class="social">
-    <label for="">Linkedin</label> <a href="https://www.linkedin.com/in/lufe-diaz-s/" class="social-media" target="_blank"></a>
-    <label for="">Instragram</label> <a href="https://www.instagram.com/luchis_taekwondo/" class="social-media" target="_blank"></a>
-    <label for="">YouTube</label>  <a href="https://www.youtube.com/channel/UCe06gpR6bMqTmlDwX3Ly5ZQ" class="social-media" target="_blank"></a>
-    <label for="">Twitter</label>  <a href="" class="social-media" target="_blank"></a>
+        <div class="barra">
+            <div class="" id="html"></div>
+        </div>
     </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Javascript</p>
+            <span class="porcentaje">30%</span>
+        </div>
 
-    <span class="copy" >&copy;2023, Luisa Díaz. </span>
+        <div class="barra">
+            <div class="" id="js"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>Bases de Datos</p>
+            <span class="porcentaje">40%</span>
+        </div>
 
- </footer>
+        <div class="barra">
+            <div class="" id="bd"></div>
+        </div>
+    </div>
+  
+    </div>
+</div>
 
- </div>
+
+<!--Portafolio-->
+<section id="portfolio">
+  <h3 class="titulo-seccion">Mis Proyectos</h3>
+  <div class="fila">
+      <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="https://github.com/fernandasandoTKD/bit06exercises" target="_blank"><img src="/docs/img/bit06.png" alt=""></a>
+          <div class="info">
+              <h4>Login</h4>
+              <p>Contrucción de login en lenguaje Javascript (bit06)</p>
+          </div>
+      </div>
+      <div class="proyecto">
+          <div class="overlay"></div>
+          <a href="" target="_blank"><img src="/docs/img/bit05.png" alt=""> </a>
+          <div class="info">
+              <h4>Página WEB</h4>
+              <p>Uso de framework Boostrap (bit05)</p>
+          </div>
+      </div>
+      <div class="proyecto">
+          <div class="overlay"></div>
+          <a href=""><img src="/docs/img/bit_04.png" alt=""></a>
+          <div class="info">
+              <h4>Página Aroon Cook</h4>
+              <p>Diseño Web con CSS (bit04)</p>
+          </div>
+      </div>
+  </div>
+  </section>
+<!-- Contacto-->
+<section id="contacto">
+  <h3 class="titulo-seccion">Contáctame ahora</h3>
+  <div class="contenedor-form">
+      <form action="">
+          <div class="fila mitad">
+              <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+              <input type="email" placeholder="Dirección de Email" class="input-mitad">
+          </div>
+          <div class="fila">
+              <input type="text" placeholder="Tema..." class="input-full">
+          </div>
+          <div class="fila">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+          </div>
+
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+      </form>
+  </div>
+</section>
+
+<!-- footer -->
+<footer id="footer">
+  <p>Todos los derechos reservados - 2023</p>
+  <div class="redes">
+      <a href="https://github.com/fernandasandoTKD" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/lufe-diaz-s/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/luchis_taekwondo/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+  </div>
+
+</footer>
+         
+
+        
     <script src="./js/main.js"></script>
   </body>
+
 </html>
