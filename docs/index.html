@@ -9,73 +9,57 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/docs/img/avatar.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="./img/logo_luchis.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
   </head>
   <body>
    
-    
-      <!--Sección de inicio-->
-      <section id="inicio">
-
      
       <!--Contenedor de head-->
       <div class="contenedor">
           <!--Header con NAV-->
           <header class="header">
               <nav>
+                <input type="checkbox" name="" id="checkmenu" class="menu-check">     
                   <label for="checkmenu" class="menu-btn"> 
                       <span class="material-symbols-outlined">
                           menu_open
                       </span></label>
-                      <input type="checkbox" name="" id="checkmenu" class="menu-check">
-                          <div class="links">
-                            
-                            <div class="name">
-                              <p>Luisa Díaz Sandoval</p>
-                              <p>Software Developer</p>
-                            </div>
+                      <a href="index.html" class="enlace">
+                        <img src="./img/logo.png" alt="" class="logo">    </a>                           
                               <ul> 
-                              <li><a href="#sobremi" class="active">Perfil</a></li>
+                              <li><a href="#sobre_mi" class="active">Sobre mí</a></li>
                               <li> <a href="#servicios">Educación</a></li>
-                              <li><a href="#portfolio">Proyectos</a></li>
-                              <li><a href="#footer">Contactos</a></li>
+                              <li><a href="#portafolio">Proyectos</a></li>
+                              <li><a href="#contacto">Contactos</a></li>
                               </ul>
                               
-                          </div>
+                          
               </nav>
          
         </div>
           </header>
-           </section>
-            <!--Sección de portada con link de Gib-->
-           <section class="portada">
-            <label for=""><img src="./img/iconogit.png" alt=""></label>
-            <h1><a href="https://github.com/fernandasandoTKD" target="_blank">https://github.com/fernandasandoTKD</a></h1>            
-        </section> 
-
+           
            <!--Sobre mí-->
-           <section id="sobremi">
-            <div class="contenedor-foto">
-                <img src="/docs/img/me.png" alt="">
-            </div>
-            <div class="sobremi">
-                <p class="titulo-seccion">Sobre Mi</p>
-                <h2>Hola, Soy <span>Luisa Díaz Sandoval</span> </h2>
-                <h3>Desarrolladora Web</h3>
-                <p>Profesional desempeñada en el área educativa con
-                  experiencia en la enseñanza de lenguajes de
-                  programación en las ramas de Front end y Back end, así
-                  como el desarrollo de proyectos freelance en las
-                  mismas. Procesos de ejecución de ciclos y reportes de
-                  incidencia, desde la planificación y diseño de interfaz de
-                  usuario propiciando la validación de requerimientos y
-                  entrega de resultados.</p>
-                
-                <a href="https://www.linkedin.com/in/lufe-diaz-s/" target="_blank">Descargar CV</a>
-            </div>
-        </section>
+           
+           <div class="sobre_mi" id="sobre_mi">
+            <h1>Soy <span>Luisa Díaz </span></h1>
+            <p>Profesional desempeñada en el área educativa con
+                experiencia en la enseñanza de lenguajes <br> de
+                programación en las ramas de Front end y Back end, así
+                como el desarrollo de proyectos <br> freelance en las
+                mismas. Procesos de ejecución de ciclos y reportes de
+                incidencia, desde la <br> planificación y diseño de interfaz de
+                usuario propiciando la validación de requerimientos y <br>
+                entrega de resultados.</p>
+            <a href="https://drive.google.com/file/d/1gDS4vIQFfS5VBoya1LmWZqmWGmOUTZqD/view?usp=sharing" target="_blank">DESCARGAR CV </a>
+           </div>
+
+           <div class="images">
+            <img src="./img/fondo.png" alt="" class="fondo">
+            <img src="./img/me.png" alt="" class="foto">
+           </div>
 
         <!-- Sección de educación -->
     <section id="servicios">
@@ -166,41 +150,37 @@
   </section>
 
   <!-- Habilidades técnicas -->
-  <div class="contenedor-skills" id="skills">
-    <h3>HABILIDADES TÉCNICAS </h3>
-    <div class="skill">
-        <div class="info">
-            <p> <span class="lista"> </span>Html & Css</p>
-            <span class="porcentaje">70%</span>
+  <section id="skills">
+    <div class="skill-text">
+        <div class="skill-heading">
+            <span>Habilidades técnicas</span>
+            <h2>Experiencia en...</h2>
         </div>
+        <div class="s-box-container"></div>
+          <div class="skill-box">
+            <div class="s-box-icon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <i class="fa-solid fa-code-branch"></i>
 
-        <div class="barra">
-            <div class="" id="html"></div>
-        </div>
+            </div>
+            <div class="s-box-text">
+                <strong>Manejo en lenguajes de programación</strong>
+                <p>Tengo experiencias autodidacta en lenguje de demarcado y de programación en las secciones 
+                    de backend y fronted.
+                </p>
+            </div>
+          </div>
     </div>
-    <div class="skill">
-        <div class="info">
-            <p> <span class="lista"> </span>Javascript</p>
-            <span class="porcentaje">30%</span>
-        </div>
+    <div class="skill-img">
+        <img src="./img/skilis.png" alt="">
 
-        <div class="barra">
-            <div class="" id="js"></div>
-        </div>
     </div>
-    <div class="skill">
-        <div class="info">
-            <p> <span class="lista"> </span>Bases de Datos</p>
-            <span class="porcentaje">40%</span>
-        </div>
-
-        <div class="barra">
-            <div class="" id="bd"></div>
-        </div>
-    </div>
-  
-    </div>
-</div>
+  </section>
 
 
 <!--Portafolio-->
@@ -217,18 +197,18 @@
       </div>
       <div class="proyecto">
           <div class="overlay"></div>
-          <a href="" target="_blank"><img src="./img/bit05.png" alt=""> </a>
+          <a href="https://github.com/vaneroblessilva/bit05bootstrap" target="_blank"><img src="./img/bit05.png" alt=""> </a>
           <div class="info">
               <h4>Página WEB</h4>
-              <p>Uso de framework Boostrap (bit05)</p>
+              <p>Uso de framework Boostrap y contrucción de página Web (bit05)</p>
           </div>
       </div>
       <div class="proyecto">
           <div class="overlay"></div>
-          <a href=""><img src="./img/bit_04.png" alt=""></a>
+          <a href="https://github.com/fernandasandoTKD/bit04thtmlcss" target="_blank "><img src="./img/bit_04.png" alt=""></a>
           <div class="info">
               <h4>Página Aroon Cook</h4>
-              <p>Diseño Web con CSS (bit04)</p>
+              <p>Diseño Web con CSS y HTML (bit04)</p>
           </div>
       </div>
   </div>
